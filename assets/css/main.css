@@ -11,8 +11,6 @@
   width: 250px;
   height: 250px;
   position: absolute;
-  top: 100px;
-  left: 100px;
 }
 
 .cuadrosHijito {
@@ -20,6 +18,28 @@
   width: 125px;
   height: 125px;
   position: absolute;
-  top: 50px;
-  left: 50px;
+}
+
+#padre {
+  background-color: red;
+}
+
+#padre2 {
+  background-color: blue;
+}
+
+#hijo {
+  background-color: purple;
+}
+
+#hijo2 {
+  background-color: green;
+}
+
+#hijito {
+  background-color: yellow;
+}
+
+#hijito2 {
+  background-color: black;
 }
