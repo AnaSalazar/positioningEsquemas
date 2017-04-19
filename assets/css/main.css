@@ -1,5 +1,5 @@
 .cuadrosPapa {
-  border: 2px solid black;
+  border: 1px solid black;
   position: relative;
   width: 400px;
   height: 400px;
@@ -7,17 +7,19 @@
 }
 
 .cuadrosHijo {
-  border: 2px solid black;
-  width: 250px;
-  height: 250px;
+  border: 1px solid black;
+  width: 190px;
+  height: 190px;
   position: absolute;
+  left: 100px;
+  top: 100px;
 }
 
 .cuadrosHijito {
-  border: 2px solid black;
-  width: 125px;
-  height: 125px;
-  position: absolute;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  position: relative;
 }
 
 #padre {
@@ -42,4 +44,6 @@
 
 #hijito2 {
   background-color: black;
+  right: 101px;
+  bottom: 101px;
 }
