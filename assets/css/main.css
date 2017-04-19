@@ -1,0 +1,25 @@
+.cuadrosPapa {
+  border: 2px solid black;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 25px;
+}
+
+.cuadrosHijo {
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.cuadrosHijito {
+  border: 2px solid black;
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
